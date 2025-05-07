@@ -14,6 +14,11 @@ router.put('/:id', upload.single('imagen'), productController.updateProduct);
 
 router.delete('/:id', productController.deleteProduct);
 
-router.get('/search', (req, res) => productController.searchProducts(req, res)); 
+router.get('/search', (req, res) => productController.searchProducts(req, res));
+
+
+
+
+
 
 module.exports = router;
