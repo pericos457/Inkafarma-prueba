@@ -1,0 +1,89 @@
+.purchase-form-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    width: 80%;
+    max-width: 500px;
+    max-height: 80%;
+    overflow-y: auto;
+  }
+  
+  .purchase-form-container h2 {
+    text-align: center;
+  }
+  
+  .purchase-form-container .form-section {
+    margin-bottom: 1.5rem;
+  }
+  
+  .purchase-form-container .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .purchase-form-container .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .purchase-form-container .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  .purchase-form-container .form-message {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .purchase-form-container .remove-product-btn,
+  .purchase-form-container .add-product-btn {
+    margin-top: 0.5rem;
+  }
+  
+  .purchase-form-container .total-section {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .purchase-form-container .search-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .purchase-form-container .cancel-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .purchase-form-container .cancel-btn:disabled,
+  .purchase-form-container .search-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  /* Fondo semitransparente detrás del modal */
+  .purchase-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+  }
+  

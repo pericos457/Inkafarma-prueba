@@ -1,0 +1,34 @@
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden; /* Oculta las imágenes fuera del área del slider */
+}
+
+.slider-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Asegura que la imagen ocupe todo el contenedor sin deformarse */
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  z-index: 1;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease; /* Transición suave para el fondo */
+
+}
+

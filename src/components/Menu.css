@@ -1,0 +1,82 @@
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fffb00;
+    padding: 0 2rem;
+    height: 60px;
+    color: #0bc2f0;
+    box-shadow: 0 2px 4px rgba(153, 125, 125, 0.1);
+  }
+  
+  .menu-logo {
+    display: flex;
+    align-items: center;
+    user-select: none;
+   
+  }
+
+  .Inkafarma{
+    height: 120px;
+    width: auto;
+    transition: all 0.3s ease;
+  }
+
+  .Inkafarma:hover{
+    filter: brightness(1.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  
+  
+  
+  .menu-link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #030202;
+    padding: 1rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+  
+  .menu-link:hover {
+    background: rgb(39, 209, 4);
+  }
+  
+  .menu-link.active {
+    background: #3ef056c0;
+    color: #000000c5;
+  }
+
+  .app-container {
+    padding: 1.5rem;
+  }
+
+  .menu-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+  }
+  
+  .menu-nav {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .logout-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px; 
+    font-size: 15px; 
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff1a1a;
+  }

@@ -1,0 +1,119 @@
+.client-form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.client-form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+.form-group {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-group.error input,
+.form-group.error textarea {
+    border-color: #e74c3c; 
+}
+.form-group label {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #555;
+}
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group textarea {
+    padding: 0.7rem;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff;
+}
+.form-group input:disabled,
+.form-group input:read-only,
+.form-group textarea:disabled {
+    background-color: #eee;
+    cursor: not-allowed;
+}
+.form-group small {
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 0.3rem;
+}
+.error-message {
+    color: #e74c3c;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+.button-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.button-group button {
+    flex-grow: 1;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.button-group button[type="submit"] {
+    background-color: #337ab7;
+    color: white;
+}
+.button-group button[type="submit"]:hover {
+    background-color: #286090;
+}
+.button-group button[type="submit"]:disabled {
+    background-color: #a0c4e4;
+    cursor: wait;
+}
+.button-group .cancel-btn {
+    background-color: #f0ad4e;
+    color: white;
+}
+.button-group .cancel-btn:hover {
+    background-color: #ec971f;
+}
+.button-group .cancel-btn:disabled {
+    background-color: #f8d7a8;
+    cursor: not-allowed;
+}
+
+.form-message {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+}
+.form-message.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+.form-message.error {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}
+
+.loading-message {
+    font-size: 0.875rem;
+    color: #555;
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+
+.form-group.error .error-message {
+    display: block;
+}
